@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './components/App';
 import reportWebVitals from './reportWebVitals';
+import ContextApi from './context/ContextApi'
+import { ProfileContext } from './context/ProfileContext';
+import {reducer,initialState} from './Reducer/reducer'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <ProfileContext reducer={reducer} initialState={initialState}>
+    <ContextApi>
     <App />
+    </ContextApi>
+    </ProfileContext>
   </React.StrictMode>
 );
 

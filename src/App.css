@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
+.user-image{
+    height: 50px;
+    width: 55px;
+    border-radius:50%;
+    margin-left: 10px;
+}
+.post-image{
+    height: 300px;
+    width: 70%;
+    margin-left: 10px;
+    
+}
+.detail-image{
+    height: 450px;
+    width: 50%;
+    margin-left: 10px;
+    
+}
+.profilecard{
+    width: 18rem;
+}
+.button-two {
+    margin-left:20px;
+}
+.button-edit{
+    margin-right: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.upimage {
+    width:100px;
 }
